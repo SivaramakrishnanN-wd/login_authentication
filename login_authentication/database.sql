@@ -1,0 +1,11 @@
+  CREATE TABLE login_authentication
+  (id SERIAL PRIMARY KEY NOT NULL,
+ name VARCHAR(200) NOT NULL,
+ age VARCHAR(200) NOT NULL,
+ phone VARCHAR(200) NOT NULL,
+ position VARCHAR(200) NOT NULL,
+ username VARCHAR(200) NOT NULL,
+ gender VARCHAR(200) NOT NULL,
+ email VARCHAR(200) NOT NULL,
+ password VARCHAR(200) NOT NULL,
+ UNIQUE (email));
